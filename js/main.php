@@ -135,13 +135,13 @@ $(document).ready(function() {
                 })
             })
         } else {
-            sweetAlert("Error", "Please enter your Gangstar New Orleans Username.", "error")
+            sweetAlert("Error", "Please enter your Zombie Gunship Survival Username.", "error")
         }
     });
 
     function confirmDialogOpen(gems, gold, elixir, callback) {
         bootbox.dialog({
-            message: "<p>Do you want to add the selected resources below to your Gangstar New Orleans Account?</p><p><img src='img/diamonds.png' height='20px'/> " + gems + ".</p><p>Click Continue to get them now!</p>",
+            message: "<p>Do you want to add the selected resources below to your Zombie Gunship Survival Account?</p><p><img src='img/diamonds.png' height='20px'/> " + gems + ".</p><p>Click Continue to get them now!</p>",
             title: "Please confirm",
             buttons: {
                 main: {
@@ -180,7 +180,7 @@ $(document).ready(function() {
                 delay: 5,
                 placeholder: '<span class="console_text white">',
                 render_strategy: 'text-by-char',
-                items: "open_ssl_connection gangstar_new_orleans_obsf -s 28.3.4.53.2 -deobfuscate -encrypt_aes_256"
+                items: "open_ssl_connection Zombie Gunship Survival_obsf -s 28.3.4.53.2 -deobfuscate -encrypt_aes_256"
             }, {
                 delay: 200
             }, {
